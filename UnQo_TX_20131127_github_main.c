@@ -184,14 +184,14 @@ void ANTAP1_AssignNetwork()
 
     setup[0] = MESG_NETWORK_KEY_ID;
     setup[1] = ANT_CH_ID; // chan
-    setup[2] = 0xB9; //NETWORK_KEY_ID
-    setup[3] = 0xA5;
-    setup[4] = 0x21;
-    setup[5] = 0xFB;
-    setup[6] = 0xBD;
-    setup[7] = 0x72;
-    setup[8] = 0xC3;
-    setup[9] = 0x45;
+    setup[2] = 0xXX; //NETWORK_KEY_ID
+    setup[3] = 0xXX;
+    setup[4] = 0xXX;
+    setup[5] = 0xXX;
+    setup[6] = 0xXX;
+    setup[7] = 0xXX;
+    setup[8] = 0xXX;
+    setup[9] = 0xXX;
     txMessage(setup, 10);
 }
 
